@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             tts?.stop()
             tts?.shutdown()
         }
-
+        binding = null
         super.onDestroy()
     }
 
